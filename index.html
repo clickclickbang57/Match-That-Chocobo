@@ -4,13 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Match That Chocobo</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <section class="cards">
 
-<img class="card-back" src="Images/card back.png" alt="Card Back" id="firstCard">
+    <main class="content">
+        <header class="header">
+          <h1 class="title">Match That Chocobo!!</h1>
+          <div class="movement">
+            <h6 class="subtitle">Movements</h6>
+            <div class="available" id="available"></div>
+          </div>
+        </header>
+        <section class="card-container"></section>
+      </main>
+      <div class="modal" id="modal">
+        <div class="modal-container">
+          <h3 class="modal-title" id="modal-title">You win!</h3>
+          <button type="button" class="button" id="play-again">Play Again</button>
+        </div>
+      </div>
+
+<!-- <img class="card-back" src="Images/card back.png" alt="Card Back" id="firstCard">
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="secondCard">
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="thirdCard">
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="fourthCard">
@@ -18,6 +37,7 @@
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="sixthCard">
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="seventhCard">
 <img  src="Images/moogle black.png" alt="Moogle" id="moogle">
+
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="eighthCard">
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="ninethCard">
 <img class="card-back" src="Images/card back.png" alt="Card Back" id="tenthCard">
@@ -39,7 +59,7 @@
 </section>
 
 
-
+ -->
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

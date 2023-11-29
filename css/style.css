@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body {
+overflow: hidden;
+
+color: #F5F5F5;
+background-image: url(../Images/ocean-7464282_1920.png);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
+
+}
+h1 {
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+   align-items: center;
+   padding-left: 80px;
+  
+}

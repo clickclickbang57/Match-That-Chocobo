@@ -2,7 +2,7 @@ const CARDS = [
     {
       id: 1,
       name: 'black-choco',
-      img: '..Images/black-choco.png'
+      img: 'Images/black-choco.png'
     },
     {
       id: 2,

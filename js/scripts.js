@@ -2,7 +2,7 @@ const CARDS = [
     {
       id: 1,
       name: 'black-choco',
-      img: 'images/black-choco.png'
+      img: '../images/black-choco.png'
     },
     {
       id: 2,
@@ -35,7 +35,13 @@ const CARDS = [
       name: 'yellow-choco',
       img:
         'images/yellow-choco.png'
-    }
+    },
+    {
+    id: 8 ,
+    name: 'purple-choco',
+    img:
+      'images/purple-choco.png'
+  }
   ];
   const cardContainer = document.querySelector('.card-container');
   const available = document.querySelector('#available');

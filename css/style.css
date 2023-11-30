@@ -197,3 +197,6 @@ h1 {
 .reference{
     color: white;
 }
+.reference:visited{
+    color: white;
+}

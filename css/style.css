@@ -11,13 +11,11 @@ color: #F5F5F5;
 background-image: url(../Images/ocean-7464282_1920.png);
 background-repeat: no-repeat;
 background-size: cover;
+
 margin: 0px;
 
 }
-h1 {
-    font-family: 'Bubblegum Sans', sans-serif;
-    text-align: center;
-}
+
 
 
 
@@ -29,11 +27,12 @@ h1 {
 }
 
 .title {
-  color: var(--white);
- 
-  font-size: 3rem;
+  
   font-weight: 600;
   line-height: 1.2;
+  font-size: 50px;
+  font-family: 'Bubblegum Sans', sans-serif;
+  text-align: center;
 }
 
 .header {
@@ -74,11 +73,10 @@ h1 {
 }
 
 .card {
-  background-color: var(--bridal-heath);
-  border: 0.2rem solid var(--dark-gray);
+
   border-radius: 0.25rem;
   cursor: pointer;
-  height: 12rem;
+  height: 10rem;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 500ms ease-in-out;
@@ -200,3 +198,15 @@ h1 {
 .reference a:visited{
     color: white;
 }
+.yellow-text {
+    color: #FBF552;
+    text-shadow: black 8px 8px 8px;
+  }
+  .win-image {
+    width: 50px;  
+    height: 50px; 
+  }
+  .counter-references {
+    display: flex;
+    justify-content: space-between; /* optional, to add space between the items */
+  }

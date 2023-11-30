@@ -69,14 +69,23 @@ const CARDS = [
   
   function win() {
     isPaused = true;
-    modalTitle.innerHTML = 'You win! 🙌🥳';
+    modalTitle.innerHTML = 'You win! <img src="Images/moogle-black.png" alt="moogle" class="moogle" />';
     modal.classList.add('modal--open');
+    let audio= new Audio('audio/475148__rezyma__victoryffswf.mp3');
+    audio.oncanplaythrough = function() {
+        audio.play();
+      }
   }
   
   function lose() {
     isLose = true;
-    modalTitle.innerHTML = 'You lose 😢😩';
+    modalTitle.innerHTML = 'You lose <img src="Images/crying-choco.png" alt="crying-choco" class="crying choco" />';
     modal.classList.add('modal--open');
+
+    let audio= new Audio('audio/157218__adamweeden__video-game-die-or-lose-life.flac')
+    audio.oncanplaythrough = function() {
+        audio.play();
+      }
   }
   
   function handleClick(e) {
@@ -116,7 +125,7 @@ const CARDS = [
       }
   
       // Validate is already win
-      const isWin = cardContainer.querySelectorAll('card--guessed').length === currentCards.length;
+      const isWin = cardContainer.querySelectorAll('.card--guessed').length === currentCards.length;
       if (isWin) {
         win();
       }

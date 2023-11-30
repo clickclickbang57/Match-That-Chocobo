@@ -10,19 +10,23 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <main class="content">
 <section class="cards">
 
-    <main class="content">
+    
         <header class="header">
-          <h1 class="title">Match That Chocobo!!</h1>
+          <h1 class="title">Match That <span class="yellow-text">Chocobo!!</span></h1>
           <div class="movement">
             <h6 class="subtitle">Movements</h6>
+            <div class="counter-references"></div>
             <div class="available" id="available"></div>
-            <div class="reference" id="reference"> <a href="https://pixabay.com/vectors/ocean-sea-beach-nature-painting-7464282/">Background Image</a></div>
+            <div class="reference" id="reference1"> <a href="https://pixabay.com/vectors/ocean-sea-beach-nature-painting-7464282/">Background Image</a></div>
+            <div class=" reference" id="reference2"> <a href="https://freesound.org/people/rezyma/sounds/475148/">Sound</a></div>
+            <div class=" reference" id="reference3"> <a href="https://freesound.org/people/AdamWeeden/sounds/157218/">Sound</a></div>
           </div>
         </header>
         <section class="card-container"></section>
-      </main>
+     
       <div class="modal" id="modal">
         <div class="modal-container">
           <h3 class="modal-title" id="modal-title">You win!</h3>
@@ -31,8 +35,9 @@
       </div>
 
 </section>
+</main>
 
-</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+</body>
 </html>

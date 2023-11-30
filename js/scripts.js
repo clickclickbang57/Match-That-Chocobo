@@ -142,7 +142,7 @@ const CARDS = [
           <div class="card__back">
             <img
               class="back__img"
-              src="Images/card back.png"
+              src="Images/card-back.png"
               alt="card back"
             />
           </div>

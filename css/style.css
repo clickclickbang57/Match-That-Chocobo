@@ -194,9 +194,9 @@ h1 {
   background-color: var(--white);
   color: var(--blue);
 }
-.reference{
+.reference a{
     color: white;
 }
-.reference:visited{
+.reference a:visited{
     color: white;
 }

@@ -2,45 +2,45 @@ const CARDS = [
     {
       id: 1,
       name: 'black-choco',
-      img: '../images/black-choco.png'
+      img: '../Images/black-choco.png'
     },
     {
       id: 2,
       name: 'blue-choco',
-      img: 'images/blue-choco.png'
+      img: 'Images/blue-choco.png'
     },
     {
       id: 3,
       name: 'green-choco',
-      img: 'images/green-choco.png'
+      img: 'Images/green-choco.png'
     },
     {
       id: 4,
       name: 'pink-choco',
       img:
-        'images/pink-choco.png'
+        'Images/pink-choco.png'
     },
     {
       id: 5,
       name: 'red-choco',
-      img: 'images/red-choco.png'
+      img: 'Images/red-choco.png'
     },
     {
       id: 6,
       name: 'white-choco',
-      img: 'images/white-choco.png'
+      img: 'Images/white-choco.png'
     },
     {
       id: 7,
       name: 'yellow-choco',
       img:
-        'images/yellow-choco.png'
+        'Images/yellow-choco.png'
     },
     {
     id: 8 ,
     name: 'purple-choco',
     img:
-      'images/purple-choco.png'
+      'Images/purple-choco.png'
   }
   ];
   const cardContainer = document.querySelector('.card-container');
